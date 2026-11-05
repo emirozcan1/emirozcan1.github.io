@@ -27,7 +27,7 @@ jobs:
       - name: Upload dist
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist
+          path: emirozcan1.github.io/dist
 
       - name: Deploy
         uses: actions/deploy-pages@v4
